@@ -1,17 +1,16 @@
 # HuggingFace SmoleAgent play ground
 
-# pre reqs
+### pre reqs
 - pipenv
 - python >= 3.12
 
-# install
+### install
 ```bash
 pipenv install --python 3.12
 ```
 
 ### Langfuse keys
-
-# Get keys for your project from the project settings page: https://cloud.langfuse.com
+Get keys for your project from the project settings page: https://cloud.langfuse.com
 ```py
 os.environ["LANGFUSE_PUBLIC_KEY"] = "pk-lf-..." 
 os.environ["LANGFUSE_SECRET_KEY"] = "sk-lf-..." 
