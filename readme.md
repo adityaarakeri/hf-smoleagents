@@ -1,4 +1,4 @@
-# HuggingFace SmoleAgent play ground
+# HuggingFace SmoleAgent Play Ground
 
 ### pre reqs
 - pipenv
@@ -7,6 +7,11 @@
 ### install
 ```bash
 pipenv install --python 3.12
+```
+
+### Run
+```bash
+pipenv run python <*_agent.py>
 ```
 
 ### Langfuse keys
