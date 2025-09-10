@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+smolagents = "*"
+huggingface = "*"
+huggingface-hub = "*"
+ddgs = "*"
+numpy = "*"
+opentelemetry-sdk = "*"
+opentelemetry-exporter-otlp = "*"
+openinference-instrumentation-smolagents = "*"
+langfuse = "*"
+python-dotenv = "*"
+sqlalchemy = "*"
+black = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.1"
