@@ -4,7 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-smolagents = "*"
 huggingface = "*"
 huggingface-hub = "*"
 ddgs = "*"
@@ -16,6 +15,10 @@ langfuse = "*"
 python-dotenv = "*"
 sqlalchemy = "*"
 black = "*"
+smolagents = "*"
+selenium = "*"
+helium = "*"
+pillow = "*"
 
 [dev-packages]
 
