@@ -9,10 +9,13 @@
 pipenv install --python 3.12
 ```
 
-### Run
+### Run agent files
 ```bash
 pipenv run python <*_agent.py>
 ```
+
+**note** 
+- for web_browser_agent.py export env variable `HF_MODEL_ID`
 
 ### Langfuse keys
 Get keys for your project from the project settings page: https://cloud.langfuse.com
